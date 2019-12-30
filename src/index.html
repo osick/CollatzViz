@@ -1,0 +1,17 @@
+<html><head><link href="css/index.css" rel="stylesheet" media="screen, projection"></head><body>
+<h1 style="text-align:center">COLLATZ<br/><p id="inp">
+<input type="button" id="rnd" value=" Random " onclick="javascript:compute(true)"><input type="text" placeholder="Enter a number" id="nummer" maxlength="12" value=""><input type="button" value="&nbsp;&#x2192;&nbsp;" id="comp" onclick="javascript:compute(false)"></p>
+</h1>
+<form name="myForm" onchange="javascript:compute(false)" style="text-align:center;color:white">
+    <input type="radio" id="_r1"  name="_type"  value="val" checked="checked"/><label for="_r1">Values&nbsp;&nbsp;</label>
+    <input type="radio" id="_r2"  name="_type"  value="log" /><label for="_r2">Logarithmic&nbsp;</label>
+</form>
+    
+<div id="container">
+    <canvas id="_chart" height="400" width="1400"></canvas>
+    <div id="collatz"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="js/main.js"></script>
+</body></html>

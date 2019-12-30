@@ -1,0 +1,47 @@
+input[type=text],#comp, #rnd{ 
+    padding:0px;
+    border:0;
+    font-size:50px;
+    font-weight:bold; 
+    text-align:center;
+    background-color:#e0e0e0
+}
+#inp{
+    position: relative;
+    display: inline-block;
+    margin:0;
+    padding:0;
+    border:10px solid #ffffff;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#rnd{
+    position:absolute;
+    font-size:14px;
+    padding:3px;
+    left:0;
+    height:100%;
+}
+
+#container{
+    -webkit-box-shadow: 15px 15px 5px 0px rgba(0,0,0,0.75);-moz-box-shadow: 15px 15px 5px 0px rgba(0,0,0,0.75);box-shadow: 15px 15px 5px 0px rgba(0,0,0,0.75);
+    margin:20px;
+    padding:30px;
+    background-color: #ffffff;
+    border:3px solid #eeeeee;
+    color:#000;
+}
+#collatz p, label{font-size:10px}
+#nummer{
+    text-align:center;
+    background-color:#909090; 
+    padding-left:2em;
+}
+h1,#nummer{
+    color:#ffffff;
+    font: 50px Arial;
+    font-weight:bold;
+}
+
+h1{margin-bottom: 10px;}
+body{background-color:#505050;}
+.loop{color:red; font-weight: bold;}
